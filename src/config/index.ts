@@ -26,7 +26,7 @@ export const SITE_CONTENT: SiteContent = {
     summary:
       "热爱技术，喜欢折腾嵌入式、后端开发和 AI 应用，善于从 0 到 1 搭建项目并沉淀可复用的经验。",
     github: "https://github.com/lildengzi",
-    blog: "https://github.com/lildengzi/lildengzi.github.io",
+    blog: "https://lildengzi.github.io",
   },
   experience: [
     {
