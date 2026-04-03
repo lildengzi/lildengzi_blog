@@ -2,7 +2,7 @@
 import type { HeroProps } from "@types";
 type Props = HeroProps;
 
-const { name, specialty, summary, email } = Astro.props;
+const { name, specialty, summary, email, blog } = Astro.props;
 ---
 
 <section class="py-24 md:py-32" id="#hero">
@@ -24,4 +24,9 @@ const { name, specialty, summary, email } = Astro.props;
     class="inline-block rounded-full bg-primary px-8 py-5 text-sm leading-5 font-medium text-[#fff]"
     href={`mailto:${email}`}>Get in Touch</a
   >
+  {blog && (
+    <a
+      class="ml-4 inline-block rounded-full border border-neutral/20 px-8 py-5 text-sm leading-5 font-medium text-white hover:bg-white/5"
+      href={blog} target="_blank">个人笔记</a>
+  )}
 </section>

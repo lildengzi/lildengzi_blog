@@ -20,6 +20,7 @@ export interface HeroProps {
   specialty: string;
   summary: string;
   email: string;
+  blog?: string;
 }
 
 export interface ExperienceProps {
