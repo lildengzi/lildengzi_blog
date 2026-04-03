@@ -1,98 +1,85 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "lildengzi 的个人博客",
+  author: "lildengzi",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-  lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+    "计算机科学与技术专业本科毕业生，热爱嵌入式、后端开发和 AI 应用",
+  lang: "zh",
+  siteLogo: "/lildengzi.jpg",
   navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
-    { text: "About", href: "#about" },
+    { text: "项目", href: "#projects" },
+    { text: "关于", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "GitHub", href: "https://github.com/lildengzi" },
+    { text: "邮箱", href: "mailto:2580862656@qq.com" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/og-image.png",
+  canonicalURL: "https://lildengzi.github.io",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "lildengzi",
+    specialty: "计算机科学与技术",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "热爱技术，喜欢折腾嵌入式、后端开发和 AI 应用，善于从 0 到 1 搭建项目并沉淀可复用的经验。",
+    email: "2580862656@qq.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "计算机科学与技术学院宣传部",
+      position: "新媒体运营专员",
+      startDate: "2022",
+      endDate: "2024",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "负责公众号运营、活动宣传与图文编辑，提升学院影响力",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "班级",
+      position: "文体委员",
+      startDate: "2020",
+      endDate: "2024",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "组织班级文体活动，协调赛事与日常事务",
       ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "基于 AI 大模型的集成电路故障诊断系统",
+      summary: "全栈 · 多智能体协作 · LangChain，构建多智能体协作系统，实现自动故障根因分析",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "https://github.com/lildengzi/aiops-rca",
+      image: "/projects/aiops-rca.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "基于树莓派和阿里云的远程温湿度控制系统",
+      summary: "物联网 · MQTT · 测试，设计可靠性 ≥99.9%、命令延迟 ≤5s 等关键指标，完成 72 小时连续运行测试",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      linkSource: "https://github.com/lildengzi",
+      image: "/projects/iot.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "学校食堂点评系统",
+      summary: "Spring Boot + MyBatis，主导全流程测试，编写 20+ 用例，使用 JMeter 完成 100 并发压测",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      linkSource: "https://github.com/lildengzi/xdudianping",
+      image: "/projects/canteen.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      你好，我是 lildengzi，一名计算机科学与技术专业的本科毕业生。
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      热爱技术，喜欢折腾嵌入式、后端开发和 AI 应用，善于从 0 到 1 搭建项目并沉淀可复用的经验。
+      
+      熟练掌握：C / C++ / Python / Linux 命令行工具 / Git工具
+      
+      了解 / 使用过：Java / Go / Spring Boot / MyBatis / MySQL / MQTT / FPGA 基础开发
     `,
-    image: "/alejandro-big.jpg",
+    image: "/lildengzi.jpg",
   },
 };
-
-// #5755ff
