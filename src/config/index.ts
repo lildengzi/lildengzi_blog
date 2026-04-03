@@ -25,7 +25,7 @@ export const SITE_CONTENT: SiteContent = {
     specialty: "计算机科学与技术专业本科生",
     summary:
       "热爱技术，喜欢折腾嵌入式、后端开发和 AI 应用，善于从 0 到 1 搭建项目并沉淀可复用的经验。",
-    email: "2580862656@qq.com",
+    github: "https://github.com/lildengzi",
     blog: "https://github.com/lildengzi/lildengzi.github.io",
   },
   experience: [

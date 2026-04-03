@@ -19,7 +19,7 @@ export interface HeroProps {
   name: string;
   specialty: string;
   summary: string;
-  email: string;
+  github: string;
   blog?: string;
 }
 
